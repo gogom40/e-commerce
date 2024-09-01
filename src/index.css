@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.prouduct:hover{
+ border: solid 1px mediumaquamarine;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.prouduct .btn{
+    transition: transform 0.5s ,opacity 0.5s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.prouduct:hover .btn{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.text-main{
+    color: mediumaquamarine;
+}
+.basket{
+    border-radius: 4px;
+}
